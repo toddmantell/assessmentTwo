@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+}
+
+.rooms-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.room {
+  height: 150px;
+  margin: 20px;
+  border-radius: 8px;
+  border: 3px solid gainsboro;
+  background-color: #dbdbe3;
+}
+
+.room--disabled {
+  background-color: #e7e7e7;
+  opacity: 0.6;
+}
+
+.room__header {
+  margin: 0;
+  height: 16%;
+  vertical-align: middle;
+  text-align: center;
+  background-color: white;
+}
+
+.room__header--disabled {
+  background-color: unset;
+}
+
+.dropdown {
+  margin: 5px;
+}
+
+.dropdown__label {
+  margin: 5px;
+}
+
+.dropdown--disabled {
+  pointer-events: none;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button {
+  width: 75px;
+}

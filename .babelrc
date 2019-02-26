@@ -1,16 +1,17 @@
 {
   "presets": [
     [
-      "@babel/preset-env",
+      "next/babel",
       {
-        "targets": {
-          "node": "current",
-          "browsers": ["last 2 versions"]
-        }
+        "preset-env": {},
+        "transform-runtime": {},
+        "styled-jsx": {},
+        "class-properties": {},
+        "preset-es2015": {},
+        "preset-react": {},
+        "preset-stage-0": {}
       }
-    ],
-    "@babel/preset-es2015",
-    "@babel/preset-react",
-    "@babel/preset-stage-0"
-  ]
+    ]
+  ],
+  "plugins": []
 }

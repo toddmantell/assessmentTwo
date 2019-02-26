@@ -1,8 +1,11 @@
 module.exports = {
   scripts: {
-    default: "next build && next",
+    default: "npx rimraf .next && next build && next start",
     build: {
-      default: "next build"
+      default: "npx rimraf .next && next build"
+    },
+    dev: {
+      default: "next"
     },
     test: {
       default: "jest --no-watchman --coverage",

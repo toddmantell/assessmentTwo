@@ -1,3 +1,7 @@
 import React from "react";
 
-export default () => <div>...saving</div>;
+export default () => (
+  <div id="saving" style={{ textAlign: "center" }}>
+    ...saving
+  </div>
+);

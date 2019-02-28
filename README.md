@@ -1,6 +1,4 @@
 # assessmentTwo
-The Second Assessment For The Hilton Code Assessments
-
 To run:
 `npm i` to install required node modules.
 
